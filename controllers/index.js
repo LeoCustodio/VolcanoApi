@@ -5,7 +5,7 @@ const airport = require('../services/airport.services.js');
 
 module.exports = function (router) {
 
-    router.get('/index',(req, res, next) => {
+    router.post('/index',(req, res, next) => {
 
         const data = req.body;
         var firstAirport = '';
